@@ -1,0 +1,12 @@
+.navigation {
+    &__list {
+        display: flex;
+        &__link {
+            margin-left: 40px;
+            font-size: 1.8em;
+            &.active {
+                font-weight: bold;
+            }
+        }
+    }
+}

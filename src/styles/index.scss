@@ -1,0 +1,16 @@
+@import "./utils/variables";
+
+@import "./base/reset";
+
+@import "./components/header";
+    @import "./components/navigation";
+    @import "./components/logo";
+
+@import "./components/footer";
+
+@import "./components/window";
+    @import "./components/displayer";
+    @import "./components/selector";
+        @import "./components/sorter";
+        @import "./components/receipsList";
+            @import "./components/receip";
